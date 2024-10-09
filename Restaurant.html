@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant-GOLDEN SPOONS</title>
+    <link rel="stylesheet" href="Restaurant.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#reservations">Reservations</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h4  id="golden"> GOLDEN SPOONS! </h4>
+
+        <h1>Welcome to Our Restaurant </h1>
+        <p>Experience the finest cuisine in town.</p>
+        <a style=" background-color:red;" href="#reservations" class="cta-button">Reserve a Table</a>
+    </section>
+
+    <section id="menu">
+        <h2 class="myyy">Our Menu</h2>
+        
+        <!-- Non-Vegetarian Dishes -->
+        <div class="menu-item">
+            <h2>- Non-Vegetarian Dishes -</h2> <br>
+            <h3>1) Butter Chicken:</h3>
+            <img src="./butter-chicken.jpg" alt="Butter Chicken"  class="menu-image">
+            <p>Succulent chicken cooked in a rich, creamy tomato sauce</p>
+            <span>₹450</span>
+        </div>
+    
+        <div class="menu-item">
+            <h3>2) Rogan Josh:</h3>
+            <img src="Rogan Josh.jpg" alt="Rogan Josh" class="menu-image">
+            <p>Slow-cooked lamb in a fragrant Kashmiri curry sauce</p>
+            <span>₹500</span>
+        </div>
+    
+        <div class="menu-item">
+            <h3>3) Chicken Biryani:</h3>
+            <img src="chicken-biryani.jpg" alt="Chicken Biryani" class="menu-image">
+            <p>Spiced chicken layered with aromatic basmati rice</p>
+            <span>₹400</span>
+        </div>
+    
+        <div class="menu-item">
+            <h3>4) Fish Curry:</h3>
+            <img src="fish-curry.jpg" alt="Fish Curry" class="menu-image">
+            <p>Fresh fish simmered in a tangy coconut curry</p>
+            <span>₹450</span>
+        </div>
+    
+        <!-- Vegetarian Dishes -->
+        <h2>- Vegetarian Dishes -</h2> <br>
+        <h3>5) Paneer Butter Masala:</h3>
+        <div class="menu-item">
+            <img src="./paneer-butter-masala.jpg" alt="Paneer Butter Masala" class="menu-image">
+            <p>Paneer cubes in a creamy, spiced tomato sauce</p>
+            <span>₹350</span>
+        </div>
+    
+        <div class="menu-item">
+            <h3>6) Chole Bhature:</h3>
+            <img src="./chole-bhature.jpg" alt="Chole Bhature" class="menu-image">
+            <p>Spicy chickpea curry served with fried bread (bhature)</p>
+            <span>₹250</span>
+        </div>
+    
+        <div class="menu-item">
+            <h3>7) Vegetable Pulao:</h3>
+            <img src="./vegetable-pulao.jpg" alt="Vegetable Pulao" class="menu-image">
+            <p>Aromatic basmati rice cooked with mixed vegetables and spices</p>
+            <span>₹300</span>
+        </div>
+    
+        <div class="menu-item">
+            <h3>8) Dal Makhani:</h3>
+            <img src="./dal-makhani.jpg" alt="Dal Makhani" class="menu-image">
+            <p>Rich and creamy black lentils slow-cooked with butter and spices</p>
+            <span>₹320</span>
+        </div>
+    </section>
+    
+    
+    
+    <section id="reservations">
+        <h2 class="myyy">Reservations</h2>
+        <form id="reservation-form">
+            <label for="date">Date:</label>
+            <input type="date" id="date" required>
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" required>
+
+            <label for="guests">Guests:</label>
+            <input type="number" id="guests" min="1" max="10" required>
+
+            <button type="submit">Book a Table</button>
+        </form>
+        <p id="confirmation-message"></p>
+    </section>
+
+    <section id="events">
+        <h2 class="myyy">Upcoming Events</h2>
+        <div class="event">
+            <h3>Jazz Night</h3>
+            <p>Join us for live jazz music</p>
+            <span>October 20, 2024</span>
+        </div>
+        <div class="event">
+            <h3>Wine Tasting</h3>
+            <p>Explore a variety of wines</p>
+            <span>November 10, 2024</span>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="myyy">Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Restaurant. All rights reserved.</p>
+    </footer>
+
+    <script src="Restaurant.js"></script>
+</body>
+</html>

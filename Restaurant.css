@@ -1,0 +1,105 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#home {
+    text-align: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+#menu, #reservations, #events, #contact {
+    padding: 50px;
+    text-align: center;
+    border: 2px double rgb(201, 61, 61);
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color: #f4f4f4;
+}
+
+.menu-item, .event {
+    margin: 20px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+form label, form input, form textarea, form button {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.myyy{
+    
+    font-size:30px;
+    border-bottom:1px  solid black;
+    
+    display: inline-block;
+
+ 
+}
+#golden{
+    color: #e67e22;
+    font-size: 3rem;
+    font-family:serif;
+    border-bottom: 2px solid #e67e22;
+    display: inline-block;
+    
+}
+.menu-image {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.menu-item {
+    text-align: center;
+    margin-bottom: 30px;
+}
